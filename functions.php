@@ -7,6 +7,12 @@ define('THEME_ROOT', get_template_directory_uri());
 
 add_action( 'wp_enqueue_scripts', 'adore_style' );
 add_action( 'wp_enqueue_scripts', 'adore_scripts' );
+add_action( 'after_setup_theme', 'theme_register_nav_menu' );
+
+
+function theme_register_nav_menu() {
+	register_nav_menu( 'footer_menu', 'Меню в подвале');
+}
 
 function adore_style() {
 	

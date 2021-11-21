@@ -527,7 +527,7 @@ template {
 	flex-wrap: wrap;
 }
 
-.footer__link {
+.footer a {
 	font-family: "PlayfairDisplay-Regular", sans-serif;
 	font-size: 18px;
 	line-height: 94.5%;
