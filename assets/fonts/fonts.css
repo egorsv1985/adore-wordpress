@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Oswald-Medium";
+	src: url("Oswald-Medium.ttf"), url("Oswald-Medium.woff"), url("Oswald-Medium.woff");
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Oswald-Regular";
+	src: url("Oswald-Regular.ttf"), url("Oswald-Regular.woff"), url("Oswald-Regular.woff2");
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PlayfairDisplay-Regular";
+	src: url("PlayfairDisplay-Regular.ttf"), url("PlayfairDisplay-Regular.woff"), url("PlayfairDisplay-Regular.woff2");
+	font-weight: 400;
+	font-display: swap;
+}
