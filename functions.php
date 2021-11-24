@@ -12,6 +12,7 @@ add_action( 'after_setup_theme', 'theme_register_nav_menu' );
 
 function theme_register_nav_menu() {
 	register_nav_menu( 'footer_menu', 'Меню в подвале');
+	register_nav_menu( 'header_menu', 'Меню в шапке');
 }
 
 function adore_style() {
