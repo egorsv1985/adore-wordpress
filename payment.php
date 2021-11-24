@@ -5,9 +5,10 @@ Template Name: payment
 ?>
 <?php get_header(); ?>
 <section class="payment">
+<h2 class="payment__subtitle">оПЛАТА</h2>
 		<div class="container">
 		    <div class="payment__wrapper">
-			 <h2 class="payment__subtitle">оПЛАТА</h2>
+			 
 			 <img class="payment__img" src="<?php echo IMG_DIR; ?> ./payment/payment-photo.jpg" alt="payment">            
 			 <h3 class="payment__title">Цена мероприятия:
 			 </h3>
