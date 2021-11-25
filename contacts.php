@@ -16,7 +16,7 @@ Template Name: contacts
 			  <p class="contacts__name"> Анастасия</p>
               <a class="contacts__tel" href="tel:+375297015300">+375297015300</a>
 		 </div>
-			  <img class="contacts__img" src="<?php echo IMG_DIR; ?> ./contacts/contacts-photo.jpg" alt="contacts">
+			  <img class="contacts__img" src="<?php echo IMG_DIR; ?>/contacts/contacts-photo.jpg" alt="contacts">
 			 </div>
 			
 	</section>

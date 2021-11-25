@@ -2,7 +2,7 @@
         <div class="container">
         <div class="footer__wrapper">            
                   
-            <nav class="footer__nav" id="nav">
+        <nav class="footer__nav" id="nav">
 					<?php wp_nav_menu( [
 	'theme_location'  => 'footer_menu',
 	'container'       => 'null',

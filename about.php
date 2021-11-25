@@ -6,7 +6,7 @@ Template Name: about
 <?php get_header(); ?>
 <section class="about">
 		          
-			 <img class="about__img" src="<?php echo IMG_DIR; ?> ./about/about-photo.jpg" alt="about">		 
+			 <img class="about__img" src="<?php echo IMG_DIR; ?>/about/about-photo.jpg" alt="about">		 
 			</div>
             <div class="about__wrapper">
                 <div class="about__content">

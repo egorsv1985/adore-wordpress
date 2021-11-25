@@ -4,7 +4,7 @@
         <div class="main__wrapper">
             <h2 class="main__subtitle">Предновогодний 
                 бал</h2>
-            <img class="main__img" src="<?php echo IMG_DIR; ?> ./main-page/main.jpg" alt="main">
+            <img class="main__img" src="<?php echo IMG_DIR; ?>/main-page/main.jpg" alt="main">
             
             <h1 class="main__title">В честь открытия 
                     женского клуба “Adore”</h1>

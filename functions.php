@@ -12,15 +12,17 @@ add_action( 'after_setup_theme', 'theme_register_nav_menu' );
 
 function theme_register_nav_menu() {
 	register_nav_menu( 'footer_menu', 'Меню в подвале');
-	register_nav_menu( 'header_menu', 'Меню в шапке');
+	
 }
 
 function adore_style() {
 	
 	wp_enqueue_style( 'main-style', get_stylesheet_uri() );
 
-	
 
+}
+
+function adore_scripts() {
 	
-	// wp_enqueue_script( 'script-name', get_template_directory_uri() .'/js/example.js', array(), '1.0', true );
+wp_enqueue_script( 'script-adore', get_template_directory_uri() .'/assets/js/scripts.js', array(), '1.0', true );
 }
