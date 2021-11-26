@@ -1,8 +1,9 @@
-/* 
-Theme name: adore 
-*/
 @charset "UTF-8";
 
+/*
+Theme Name: adore
+
+*/
 .footer .container,
 .payment .container,
 .about .container,
@@ -135,6 +136,11 @@ a {
 	background-color: transparent;
 	text-decoration: none;
 	color: inherit;
+	font-family: "PlayfairDisplay-Regular", sans-serif;
+	font-size: 18px;
+	line-height: 94.5%;
+	font-weight: 400;
+	text-align: center;
 }
 
 /**
@@ -411,29 +417,11 @@ template {
 	display: none;
 }
 
-@font-face {
-	font-family: "Oswald-Medium";
-	src: url("../fonts/Oswald-Medium.ttf"), url("../fonts/Oswald-Medium.woff"), url("../fonts/Oswald-Medium.woff");
-	font-weight: 500;
-	font-display: swap;
-}
 
-@font-face {
-	font-family: "Oswald-Regular";
-	src: url("../fonts/Oswald-Regular.ttf"), url("../fonts/Oswald-Regular.woff"), url("../fonts/Oswald-Regular.woff2");
-	font-weight: 400;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "PlayfairDisplay-Regular";
-	src: url("../fonts/PlayfairDisplay-Regular.ttf"), url("../fonts/PlayfairDisplay-Regular.woff"), url("../fonts/PlayfairDisplay-Regular.woff2");
-	font-weight: 400;
-	font-display: swap;
-}
 
 .header {
-	margin: 45px 0 10px;
+	margin: 28px 0 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header__wrapper {
@@ -467,8 +455,8 @@ template {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	border: 3px solid #1E4D51;
-	border-radius: 20px;
-	padding-bottom: 30%;
+	margin-top: 29px;
+	padding-bottom: 48px;
 }
 
 .main__img {
@@ -482,7 +470,7 @@ template {
 	line-height: 94.5%;
 	font-weight: 500;
 	text-align: center;
-	margin: 26px 0;
+	margin: 15px 0;
 }
 
 .main h1 {
@@ -491,7 +479,7 @@ template {
 	line-height: 94.5%;
 	font-weight: 400;
 	text-align: center;
-	margin: 26px 0;
+	margin: 30px 0;
 }
 
 .main__date {
@@ -500,7 +488,7 @@ template {
 	line-height: 94.5%;
 	font-weight: 400;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .main__time {
@@ -554,7 +542,7 @@ template {
 }
 
 .about__content {
-	padding: 16px 24px;
+	padding: 24px;
 	border: 1px solid #E4B0A2;
 	max-width: 342px;
 	max-height: 214px;
@@ -611,9 +599,9 @@ template {
 .contacts h2::before {
 	content: "";
 	display: block;
-	width: 24%;
+	width: 126px;
 	height: 1px;
-	border: 1px solid #1E4D51;
+	background-color: #1E4D51;
 }
 
 .contacts h2::after {
@@ -635,7 +623,7 @@ template {
 	text-align: center;
 	letter-spacing: 0.07em;
 	padding: 0 48px;
-	margin-bottom: 62px;
+	margin-bottom: 90px;
 }
 
 .contacts__wrap {
@@ -645,9 +633,9 @@ template {
 	justify-content: space-between;
 	-ms-flex-align: center;
 	align-items: center;
-	gap: 18px;
-	padding-left: 30px;
-	margin-bottom: 62px;
+	gap: 6px;
+	padding: 0 22px;
+	margin-bottom: 30px;
 }
 
 .contacts__telephone {
@@ -674,10 +662,10 @@ template {
 }
 
 .contacts__tel {
-	font-family: "PlayfairDisplay-Regular", sans-serif;
-	font-size: 20px;
+	font-family: "PlayfairDisplay-Bold", sans-serif;
+	font-size: 18px;
 	line-height: 100%;
-	font-weight: 400;
+	font-weight: 700;
 	text-align: center;
 	letter-spacing: 0.07em;
 	-webkit-font-feature-settings: "pnum"on, "lnum"on;
@@ -702,7 +690,7 @@ template {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
-	margin: 32px 0 20px;
+	margin: 32px 0 46px;
 	position: relative;
 }
 
@@ -710,9 +698,9 @@ template {
 .partners h2::before {
 	content: "";
 	display: block;
-	width: 24%;
+	width: 88px;
 	height: 1px;
-	border: 1px solid #1E4D51;
+	background-color: #1E4D51;
 }
 
 .partners h2::after {
@@ -789,9 +777,9 @@ template {
 .payment h2::before {
 	content: "";
 	display: block;
-	width: 24%;
+	width: 146px;
 	height: 1px;
-	border: 1px solid #1E4D51;
+	background-color: #1E4D51;
 }
 
 .payment h2::after {
@@ -805,14 +793,14 @@ template {
 	top: 50%;
 }
 
-.payment h1 {
+.payment h3 {
 	font-family: "Oswald-Medium", sans-serif;
 	font-size: 26px;
 	line-height: 100%;
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.07em;
-	margin: 18px 0;
+	margin: 10px 0 20px;
 }
 
 .payment__img {
@@ -829,6 +817,7 @@ template {
 	letter-spacing: 0.07em;
 	-webkit-text-decoration-line: line-through;
 	text-decoration-line: line-through;
+	margin-bottom: 10px;
 }
 
 .payment__price {
@@ -838,13 +827,14 @@ template {
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.07em;
+	margin-bottom: 10px;
 }
 
 .payment .btn {
 	background-color: transparent;
 	width: 236px;
 	height: 40px;
-	margin: 12px 0 68px;
+	margin: 12px 0 35px;
 	-webkit-filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 	filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
 	background-color: transparent;
@@ -873,6 +863,7 @@ template {
 	-ms-flex-align: center;
 	align-items: center;
 	gap: 22px;
+	margin-bottom: 30px;
 }
 
 .footer__wrapper {
@@ -890,7 +881,12 @@ template {
 	flex-wrap: wrap;
 }
 
-.footer__link {
+.footer {
+	margin-top: 28px;
+	box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer a {
 	font-family: "PlayfairDisplay-Regular", sans-serif;
 	font-size: 18px;
 	line-height: 94.5%;

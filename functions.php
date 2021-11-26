@@ -24,5 +24,5 @@ function adore_style() {
 
 function adore_scripts() {
 	
-wp_enqueue_script( 'script-adore', get_template_directory_uri() .'/assets/js/scripts.js', array(), '1.0', true );
+wp_enqueue_script( 'script-adore', get_template_directory_uri() .'/assets/js/scripts.js', array(), null, true );
 }
