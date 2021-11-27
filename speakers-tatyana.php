@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: programma
+Template Name: speakers-tatyana
 */
 ?>
 <?php get_header(); ?>
