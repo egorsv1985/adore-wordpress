@@ -8,9 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/assets/fonts/fonts.css">    
     <title><?php echo bloginfo('description'); ?></title>
-	 <?php wp_head(); ?>    
-    <base target="_blank">
-
+	 <?php wp_head(); ?> 
 </head>
 
 <body>    
@@ -21,18 +19,13 @@
                 </a>     
 
                 <ul class="header__contacts">
+                    
                     <li class="header__item">
-                    <a href="https://instagram.com/pirogova_anna?utm_medium=copy_link" class="header__link">
-                            <img class="header__img" src="<?php echo IMG_DIR; ?>/header/Instagram.svg" alt="Instagram">
-                        </a>
-                    </li>
-                    <li class="header__item">
-                    <a href="https://t.me/manchenko_life
+                    <a href="https://t.me/adore_women
                         " class="header__link">
                             <img class="header__img" src="<?php echo IMG_DIR; ?>/header/Telegram.svg" alt="Telegram">
                         </a>
                     </li>
                 </ul>                
-            </div>            
-        </div>
-    </header>
+            </div>         
+</header>
