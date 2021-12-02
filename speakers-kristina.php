@@ -5,11 +5,11 @@ Template Name: speakers-kristina
 ?>
 <?php get_header(); ?>
 <section class="speakerCards">      
-     <div class="container">
+   <div class="container">
 		<a href="https://adore.by/?page_id=64" class="speakerCards__btn">
 			<img class="program_arrow" src="<?php echo IMG_DIR; ?>/form/Arrow.svg" alt="arrow">
 		</a>
-		</div>      
+	</div>      
     <div class="speakerCards__wrap">    
     	<div class="speakerCards__wrapper">
 			<div class="speakerCards__pseudo">
