@@ -4,7 +4,8 @@ Template Name: speakers-inga
 */
 ?>
 <?php get_header(); ?>
-<section class="speakerCards">      
+<section class="speakerCards">
+	      
    <div class="container">
 		<a href="https://adore.by/?page_id=64" class="speakerCards__btn">
 			<img class="program_arrow" src="<?php echo IMG_DIR; ?>/form/Arrow.svg" alt="arrow">
